@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    
+}
+header {
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
+    padding:10px ;
+    
+}
+div ul {
+    list-style: none;
+    
+}
+nav a:hover {
+    color:red;
+}
+
+section {
+    padding : 3px 2px;
+    max-width: 1000px;
+    margin: 20px ;
+}
+
+.figure {
+    display: grid;
+    grid-template-areas: 'stack';
+    max-width: 400px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
